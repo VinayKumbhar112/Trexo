@@ -1,0 +1,16 @@
+.container-footer{
+  width: 100vw;
+  background-color: rgba(250, 246, 246, 0.963)
+}
+.links{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.links link a{
+  color: grey;
+  text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.navbox{
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+
+}
+.navbar{
+  padding:0.1rem;
+}
+.nav-link{
+margin-left: 1rem;
+}
+
+  img{
+    height: 50px;
+  }
+
+  #navbarNav{
+margin-left: 5rem;
+  }
+   .icon{
+    height: 10px;
+   }

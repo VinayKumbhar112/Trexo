@@ -1,0 +1,63 @@
+.mega-nav {
+  position: absolute;
+  background: white;
+  padding: 10px 20px;
+  z-index:999;
+  margin-top: 1.8rem;
+  margin-right: 3rem;
+  border: 1px solid rgb(233, 227, 227);
+   left: 59rem;
+
+}
+.mega-nav__main {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.mega-nav__item {
+  margin-right: 20px;
+  position: relative;
+}
+.mega-nav__item img {
+  width: 24px;
+  height: 24px;
+}
+.mega-nav__item--dropdown:hover .mega-menu {
+  display: flex;
+}
+.mega-menu {
+ 
+  position: absolute;
+  top: 100%;
+  right: 2rem;
+   z-index: 999;
+  display: none;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 600px;
+}
+.menu-column {
+  flex: 1;
+  margin-right: 20px;
+}
+.menu-column h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.menu-column ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-column ul li {
+  margin-bottom: 8px;
+}
+.menu-column ul li a {
+  font-size: 13px;
+  color: #555;
+  text-decoration: none;
+}
+.menu-column ul li a:hover {
+  color: #000;
+}

@@ -11,7 +11,7 @@ const BuyActionWindow = ({ uid, closeBuyWindow }) => {
   const { setAllHoldings } = useContext(GeneralContext); // ✅ Get updater from context
 const saveToDB = async (stock) => {
   try {
-    const response = await axios.post('http://localhost:8080/newholdings', stock); // Adjust endpoint
+    const response = await axios.post(' https://trexo-1.onrender.com/newholdings', stock); // Adjust endpoint
     console.log("Saved to DB:", response.data);
   } catch (err) {
     console.error("Failed to save to DB", err);
@@ -20,7 +20,7 @@ const saveToDB = async (stock) => {
 
   const handleBuyClick = async () => {
     try {
-      const res = await axios.post("http://localhost:8080/neworder", {
+      const res = await axios.post(" https://trexo-1.onrender.com/neworder", {
         name: uid,
         qty: stockQuantity,
         price: stockPrice,
